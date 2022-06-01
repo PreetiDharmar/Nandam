@@ -1,0 +1,81 @@
+.bgimage{
+    height: 100vh;
+    background: url('images/pn.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero_tittle {
+    font-size:4.5rem;
+}
+ 
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+
+}
+
+
+.imageaboutpage {
+
+    width:50%;
+}
+
+/* services section css */
+.servicestext.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesicon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesicon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+
+#footer {
+    background-color: #808080;
+    text-align: center;
+
+}
+
+#about, #services, #portfolio, #contacts {
+    margin-top: 4rem;
+    padding-top: 4rem;
+
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
